@@ -1,5 +1,13 @@
-const person:{name:string, age:number}={
+
+type objectType = {name:string, age:number}
+
+const MsgSender:objectType={
     name:"Mazhar",
     age: 35
 }
-console.log(person.name)
+
+const MsgReceiver:objectType={
+    name: "Pathan",
+    age: 37
+} 
+console.log(MsgSender.name , MsgReceiver.name)
