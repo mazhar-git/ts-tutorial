@@ -4,7 +4,7 @@ class User{
     email:string="";
 
     addUser(user:string){
-        return `${user} added`;
+        return `${user} added`; // Backtick is to concate js code and string 
     }
 }
 
