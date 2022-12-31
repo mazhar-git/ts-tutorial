@@ -1,3 +1,4 @@
+"use strict";
 function combine(a, b, type) {
     if (type === "as-number") {
         return (+a) + (+b);

@@ -1,4 +1,5 @@
-function combine(a, b) {
+"use strict";
+function combineUn(a, b) {
     if (typeof (a) === 'number' && typeof (b) === 'number') {
         return a + b;
     }
@@ -6,5 +7,5 @@ function combine(a, b) {
         return a.toString() + b.toString();
     }
 }
-console.log(combine(10, 20));
-console.log(combine('Mazhar', 'khan'));
+console.log(combineUn(10, 20));
+console.log(combineUn('Mazhar', 'khan'));

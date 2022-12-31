@@ -1,6 +1,7 @@
-var strarr = ["abc", "xyz"];
+"use strict";
+let strarr = ["abc", "xyz"];
 strarr.push("def");
 console.log(strarr);
-var anyarr = [123, "abc", true];
+let anyarr = [123, "abc", true];
 anyarr.push(false);
 console.log(anyarr);

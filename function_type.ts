@@ -1,14 +1,14 @@
-const a=10;
-const b='Mazhar';
-const c= undefined;
+const ab=10;
+const bc='Mazhar';
+const cd= undefined;
 
-function add():number{
-    return a;
+function fnadd():number{
+    return ab;
    // return b; // it will give us an error because b is string type.
 }
 
 function fundefine():undefined{
-    return c;
+    return cd;
    // return a; // it will give us an erro because a is number type.
 }
 

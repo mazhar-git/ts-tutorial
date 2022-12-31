@@ -1,4 +1,4 @@
-function combine(a:number | string, b:number | string){
+function combineUn(a:number | string, b:number | string){
     
     if(typeof(a) === 'number' && typeof(b) === 'number'){
         return a+b;
@@ -8,5 +8,5 @@ function combine(a:number | string, b:number | string){
     }
 }
 
-console.log(combine(10, 20));
-console.log(combine('Mazhar', 'khan'));
+console.log(combineUn(10, 20));
+console.log(combineUn('Mazhar', 'khan'));

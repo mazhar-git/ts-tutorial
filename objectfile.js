@@ -1,8 +1,9 @@
-var MsgSender = {
+"use strict";
+const MsgSender = {
     name: "Mazhar",
     age: 35
 };
-var MsgReceiver = {
+const MsgReceiver = {
     name: "Pathan",
     age: 37
 };
